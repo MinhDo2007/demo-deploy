@@ -1,7 +1,7 @@
 # set path to application
 app_dir = File.expand_path("../..", __FILE__)
 shared_dir = '/home/deploy/demo-deploy/shared'
-working_directory app_dir
+working_directory '/home/deploy/demo-deploy/current'
 
 
 # Set unicorn options
