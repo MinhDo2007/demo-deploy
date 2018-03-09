@@ -29,7 +29,7 @@ group :development do
   gem 'capistrano-rails', require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano-rbenv'
-  gem 'capistrano-unicorn'
+  gem 'capistrano-unicorn', :require => false
   gem 'capistrano', '~> 3.4.0'
 end
 
