@@ -19,9 +19,4 @@ stdout_path "#{shared_dir}/log/unicorn.stdout.log"
 # Set master PID location
 pid "#{shared_dir}/pids/unicorn.pid"
 
-after 'deploy:publishing', 'deploy:restart'
-namespace :deploy do
-  task :restart do
-    invoke 'unicorn:restart'
-  end
-end
+after 'deploy:restart', 'unicorn:restart'
