@@ -7,7 +7,7 @@ end
 
 gem 'unicorn', '~> 4.8.0'
 gem 'rails', '~> 5.1.5'
-gem 'myslq2'
+gem 'mysl2'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
